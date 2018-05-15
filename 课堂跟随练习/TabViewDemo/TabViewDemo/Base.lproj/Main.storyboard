@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4pK-kH-jSQ">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--第一页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.32659377647511501" green="0.97944386189405797" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="第一页" image="timg的副本" id="0Ug-eZ-uzx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="-1214"/>
+        </scene>
+        <!--第二页-->
+        <scene sceneID="VAf-G8-VyB">
+            <objects>
+                <viewController id="1nQ-pn-Nt5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gus-kR-eYr"/>
+                        <viewControllerLayoutGuide type="bottom" id="PUb-dp-Nav"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gwh-wc-uwQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.90807033540000004" green="1" blue="0.42434880670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="第二页" id="W0i-e0-fNn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sR4-Qe-etR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="-510"/>
+        </scene>
+        <!--第三页-->
+        <scene sceneID="zq6-MC-ZIz">
+            <objects>
+                <viewController id="PPU-Gg-fhP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AKq-S6-UYF"/>
+                        <viewControllerLayoutGuide type="bottom" id="zSD-78-gI0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6fP-sR-v0d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.62830496719999995" green="1" blue="0.69778318169999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="第三页" image="桂电职院数学建模协会(最终)" id="4S2-Ms-uvf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7KG-my-D5I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="148"/>
+        </scene>
+        <!--第四页-->
+        <scene sceneID="mVQ-XD-ck6">
+            <objects>
+                <viewController id="F9e-yj-yes" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uH6-Du-ntz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Je1-M0-wPN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8df-3w-dBt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.36523569690000002" blue="0.79540406090000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="第四页" id="KEt-AL-D5z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rPN-Z5-zdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="1014"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="LuK-tp-7p4">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4pK-kH-jSQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="lhx-Me-r8M">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.27134555890000001" green="1" blue="0.3304508934" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintcolor">
+                                <color key="value" red="1" green="0.096264395081319121" blue="0.77616070163130568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="wCZ-4w-CHw"/>
+                        <segue destination="1nQ-pn-Nt5" kind="relationship" relationship="viewControllers" id="Bws-mX-W0E"/>
+                        <segue destination="PPU-Gg-fhP" kind="relationship" relationship="viewControllers" id="trM-q0-SxY"/>
+                        <segue destination="F9e-yj-yes" kind="relationship" relationship="viewControllers" id="zDA-bj-3YN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GZW-UB-Bnb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="-50"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="timg的副本" width="30" height="30"/>
+        <image name="桂电职院数学建模协会(最终)" width="50" height="55"/>
+    </resources>
+</document>
