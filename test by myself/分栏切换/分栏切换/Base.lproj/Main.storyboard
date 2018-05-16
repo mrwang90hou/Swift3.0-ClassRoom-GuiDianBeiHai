@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TQy-Wn-oY7">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--澳大利亚🇦🇺-->
+        <scene sceneID="oAV-f6-mbP">
+            <objects>
+                <viewController id="VNb-al-iGu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IIw-js-7sW"/>
+                        <viewControllerLayoutGuide type="bottom" id="CQP-4m-uZ9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kwx-ko-CKO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="澳大利亚🇦🇺" image="origami" id="H0e-g6-n1L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTT-OG-1VQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1393" y="1191"/>
+        </scene>
+        <!--日本🇯🇵-->
+        <scene sceneID="iWv-wt-s94">
+            <objects>
+                <viewController id="Hib-Va-DfS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P4M-wi-EkK"/>
+                        <viewControllerLayoutGuide type="bottom" id="22n-3k-uSq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="niH-qH-yZN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.36523569690000002" blue="0.79540406090000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="日本🇯🇵" image="geisha" id="HMH-01-sLq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzb-gk-4PV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-479" y="1191"/>
+        </scene>
+        <!--中国🇨🇳-->
+        <scene sceneID="cRY-4J-oEW">
+            <objects>
+                <viewController id="N9m-bY-TkV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AIk-Ct-7Ct"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gtd-7g-rBa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g7Y-oX-CTn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.32659377649999999" green="0.97944386189999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="中国🇨🇳" image="great_wall" id="6rf-3h-nOS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yKL-pP-4on" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1407" y="1191"/>
+        </scene>
+        <!--韩国🇰🇷-->
+        <scene sceneID="ncy-3T-3ML">
+            <objects>
+                <viewController id="z1X-NX-yuS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="grt-Ca-hU3"/>
+                        <viewControllerLayoutGuide type="bottom" id="iTS-BY-eht"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ITz-Un-gcu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.20893577860000001" green="1" blue="0.40686668679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="韩国🇰🇷" image="torii" id="g9y-ub-RkE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4h3-Dr-GRt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402" y="1191"/>
+        </scene>
+        <!--设置-->
+        <scene sceneID="XnN-xf-6Et">
+            <objects>
+                <viewController id="WVk-ia-py1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eaZ-0Y-Hv1"/>
+                        <viewControllerLayoutGuide type="bottom" id="BD8-Rs-iIx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gxd-5X-O0z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="设置" image="桂电职院数学建模协会(最终)" id="o8e-tj-LQf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZfD-Za-wdW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33" y="-591"/>
+        </scene>
+        <!--MainStoryboard-->
+        <scene sceneID="n68-t2-GSn">
+            <objects>
+                <tabBarController title="MainStoryboard" id="TQy-Wn-oY7" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="A9N-DE-g4P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="0.83484418959999995" blue="0.05545934885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.53405215669999995" green="1" blue="0.085585318199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="N9m-bY-TkV" kind="relationship" relationship="viewControllers" id="hS0-Mj-N3y"/>
+                        <segue destination="VNb-al-iGu" kind="relationship" relationship="viewControllers" id="ior-PN-pjP"/>
+                        <segue destination="z1X-NX-yuS" kind="relationship" relationship="viewControllers" id="PRb-qZ-rkL"/>
+                        <segue destination="Hib-Va-DfS" kind="relationship" relationship="viewControllers" id="WxI-Y7-6Nd"/>
+                        <segue destination="WVk-ia-py1" kind="relationship" relationship="viewControllers" id="0Me-6a-NUc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uf6-Ji-aYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32.799999999999997" y="277.51124437781112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="geisha" width="25" height="25"/>
+        <image name="great_wall" width="25" height="25"/>
+        <image name="origami" width="25" height="25"/>
+        <image name="torii" width="25" height="25"/>
+        <image name="桂电职院数学建模协会(最终)" width="50" height="55"/>
+    </resources>
+</document>
