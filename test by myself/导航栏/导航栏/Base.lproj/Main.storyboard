@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8z9-cR-4gt">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--第一页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="导航栏" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.50578920954867868" blue="0.37786668383478506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一页" id="esd-fe-YIR">
+                        <barButtonItem key="backBarButtonItem" title="上一页" id="alm-NH-VR2"/>
+                        <barButtonItem key="rightBarButtonItem" title="下一页" id="aKB-QJ-eAC">
+                            <connections>
+                                <segue destination="twV-cW-vL2" kind="push" id="ydY-K3-axJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="787"/>
+        </scene>
+        <!--第二页-->
+        <scene sceneID="xrU-pD-f0h">
+            <objects>
+                <viewController id="twV-cW-vL2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UTR-wB-u04"/>
+                        <viewControllerLayoutGuide type="bottom" id="ibe-Zw-m24"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uBL-sa-Cav">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.20893577860000001" green="1" blue="0.40686668679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二页" prompt="这是个Prompt提示符" id="EHH-cF-biK">
+                        <barButtonItem key="backBarButtonItem" title="上一页" id="uNB-1m-fey"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="GZA-b2-0co">
+                            <connections>
+                                <segue destination="TaN-Rt-XE2" kind="push" id="FRT-w2-oEk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ITs-je-ejT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1513" y="786"/>
+        </scene>
+        <!--第三页-->
+        <scene sceneID="qVZ-jI-vaz">
+            <objects>
+                <viewController id="TaN-Rt-XE2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NjU-2k-zEF"/>
+                        <viewControllerLayoutGuide type="bottom" id="tuh-6u-zy3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a44-Co-gMs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.32659377649999999" green="0.97944386189999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第三页" id="QHp-7T-sld">
+                        <barButtonItem key="backBarButtonItem" title="上一页" id="CTz-2v-mqH"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="btg-ie-Job">
+                            <connections>
+                                <segue destination="qIF-Pg-wdK" kind="push" id="CL9-wE-O7V"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RD1-EX-322" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2257" y="785"/>
+        </scene>
+        <!--第四页-->
+        <scene sceneID="CbR-SS-Emn">
+            <objects>
+                <viewController id="qIF-Pg-wdK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3qw-ra-rmZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="5yW-zH-DsO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zQw-DX-GNR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.83484418961898099" blue="0.055459348850663615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第四页" id="dQ0-AK-r4U">
+                        <barButtonItem key="backBarButtonItem" title="上一页" id="AHI-jW-zbZ"/>
+                        <barButtonItem key="rightBarButtonItem" title=" Last Page " id="V9H-eR-THR">
+                            <connections>
+                                <segue destination="Cb3-I4-zZV" kind="push" id="qWX-E1-7tM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SDi-gQ-e0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2975" y="779"/>
+        </scene>
+        <!--第五页-->
+        <scene sceneID="rG3-NG-Li6">
+            <objects>
+                <viewController id="Cb3-I4-zZV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O95-af-Bc1"/>
+                        <viewControllerLayoutGuide type="bottom" id="sFV-cB-3PL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ogd-iN-KKf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.55392739633696608" green="0.40465584576434754" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第五页" id="VfW-Jv-OPn">
+                        <barButtonItem key="backBarButtonItem" title="上一页" id="UOI-40-mJz"/>
+                        <barButtonItem key="rightBarButtonItem" title="返回第一页" id="VwK-YM-rzw">
+                            <connections>
+                                <segue destination="8z9-cR-4gt" kind="showDetail" id="MUU-qE-mzY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMv-mH-BTA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3722" y="777"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gkl-hU-0qF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8z9-cR-4gt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wNX-DF-KmN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="oUo-MF-3Gf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4U4-GR-sve" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="786.97183098591552"/>
+        </scene>
+    </scenes>
+</document>
